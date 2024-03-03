@@ -18,9 +18,9 @@ body {
 
 }
 
-.nav-logo {
-    width: 400px;
-    height:400px;
+.link a {
+color: wheat;
+text-decoration:none;
 }
 
 

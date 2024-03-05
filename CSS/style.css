@@ -68,16 +68,17 @@ body {
 
 .LOL {
     background-color: #1441a5;
-    min-height: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: -2rem;
+    
 
 }
 
 
 .T-Que-es-LOL {
-    margin-left: 100%;
+    margin-left: 150%;
+    margin-top: 10%;
     
 }
 
@@ -96,6 +97,7 @@ body {
 .Ligas-T {
     margin-left: 150%;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
     
 }
 
@@ -105,9 +107,9 @@ body {
     min-height: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 80px;
-    font-size: 1.4rem;
+    
     
     
 }
@@ -123,18 +125,19 @@ body {
 
 .campeones {
     background-color: #0f2f76;
-    min-height: 10vh;
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 80px;
-    font-size: 1.4rem;  
+   
 }
 
 
 .T-Campeones {
     margin-left: 150%;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;  
 
 }
 
@@ -168,7 +171,14 @@ body {
 }
 
 
+.logo {
+ margin-top:100px;
+ margin-right: 1000px;
+}
 
-
-
-
+.aa {
+    
+    width: 500px;
+    height: 400px;
+    
+}

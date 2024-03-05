@@ -145,7 +145,27 @@ body {
     margin-top: 70px;
 }
 
+.Consejos {
+    background-color: #1b4282;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 80px;
+    font-size: 1.4rem;
+}
 
+.T-consejos{
+    margin-left: 150%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.P-consejos {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
 
 
 

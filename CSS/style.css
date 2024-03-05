@@ -1,27 +1,153 @@
+* {
+   margin:0;
+   box-sizing:border-box ;
+}
+
+
 body {
-    font-size:100%;
-    background-color: A5382D;
-}
-
-.img_aaaa{
-    width: 400px;
-    height:400px;
-   margin-left: 60%;
     
+    font-size:100%;
+    background-color: #06132f;
+    padding: 90px 20px 0px;
+    
+}
+
+.header {
+    background-color: rgb(0, 255, 195);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color:rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.LOL {
+    background-color: #1441a5;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+
+.T-Que-es-LOL {
+    margin-left: 100%;
+    
+}
+
+.P-Que-es-LOL {
+    font-size: 1.4rem;
+    color: rgb(3, 0, 6);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
    
-   
+    margin-top: 130px;
+    
 }
 
 
-.h1__aatrox {
- text-align: center;
+
+.Ligas-T {
+    margin-left: 150%;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+
+.Ligas {
+    background-color: #174abd;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 80px;
+    font-size: 1.4rem;
+    
+    
+}
+
+
+.Ligas-p {
+    
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
+
+.campeones {
+    background-color: #0f2f76;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 80px;
+    font-size: 1.4rem;  
+}
+
+
+.T-Campeones {
+    margin-left: 150%;
+    font-family: Helvetica, Arial, sans-serif;
 
 }
 
-.link a {
-color: wheat;
-text-decoration:none;
+.P-Campeones {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 70px;
 }
+
+
+
+
 
 
 

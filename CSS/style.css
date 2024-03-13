@@ -1,184 +1,120 @@
-* {
-   margin:0;
-   box-sizing:border-box ;
-}
-
 
 body {
     
     font-size:100%;
-    background-color: #06132f;
+    background-color: #000000;
     padding: 90px 20px 0px;
     
-}
-
-.header {
-    background-color: rgb(0, 255, 195);
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-
-    max-width: 992px;
-    margin: 0 auto;
+    max-width: 1260px;
+    
 }
 
-.nav-link {
-    color:rgb(230, 230, 230);
-    text-decoration: none;
+.imagen {
+    width: 200px;
+    height: 120px;
+    
+
 }
 
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
-}
-
-.nav-menu {
+.Nav-links {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
     display: flex;
     margin-right: 40px;
     list-style: none;
 }
 
-.nav-menu-item{
+.cuadritos {
     font-size: 18px;
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
     width: max-content;
-
 }
 
-.nav-menu-link {
-    padding: 8px 12px;
-    border-radius: 3px;
+.letra {
+    color:white;
+    text-decoration: none;
 }
 
-.nav-menu-link:hover {
-    background-color: blue;
-    transition: 0.5s;
-}
-
-.LOL {
-    background-color: #1441a5;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: -2rem;
-    
-
-}
-
-
-.T-Que-es-LOL {
-    margin-left: 150%;
-    margin-top: 10%;
-    
-}
-
-.P-Que-es-LOL {
-    font-size: 1.4rem;
-    color: rgb(3, 0, 6);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
-   
-    margin-top: 130px;
-    
-}
-
-
-
-.Ligas-T {
-    margin-left: 150%;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
-    
-}
-
-
-.Ligas {
-    background-color: #174abd;
-    min-height: 10vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin-top: 80px;
-    
-    
-    
-}
-
-
-.Ligas-p {
-    
-    color: rgb(0, 0, 0);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
-    margin-top: 70px;
-}
-
-.campeones {
-    background-color: #0f2f76;
-    
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin-top: 80px;
-   
-}
-
-
-.T-Campeones {
-    margin-left: 150%;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;  
-
-}
-
-.P-Campeones {
-    color: rgb(0, 0, 0);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
-    margin-top: 70px;
-}
-
-.Consejos {
-    background-color: #1b4282;
-    min-height: 10vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    margin-top: 80px;
-    font-size: 1.4rem;
-}
-
-.T-consejos{
-    margin-left: 150%;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-.P-consejos {
-    color: rgb(0, 0, 0);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
-    margin-top: 70px;
-}
-
-
-.logo {
- margin-top:100px;
- margin-right: 1000px;
-}
-
-.aa {
-    
+.Tin {
     width: 500px;
-    height: 400px;
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 36%;
+}
+
+.T {
+    color: aliceblue;
+    margin-top: 18%;
+    margin-left: 48%;
+}
+
+.R {
+    color:white;
+    font-size: 1.2rem;
+    margin-left: 1%;
+}
+
+.T-T {
+    color: white;
+    margin-left: 48%;
     
+}
+
+.resumen {
+    margin-top: 10%;
+}
+
+.general {
+    margin-top: 2%;
+    font-size: 1.4rem;
+}
+
+.generales {
+    color: white;
+    
+}
+
+.Tecnologias {
+    background-color:#3c3c3c;
+    margin-top: 10%;
+    font-size: 1.4rem;
+}
+
+.T-dos {
+    color: white;
+}
+
+.P-T {
+    color: white;
+}
+
+.prueba {
+    color: white;
+}
+
+.pruebaa {
+    color: white;
+}
+
+.flooter {
+    color: white;
+    margin-top: 8%;
+}
+
+.D-dos{
+    margin-left: 50%;
+    
+}
+
+.D-tres {
+    margin-left: 80%;
 }
